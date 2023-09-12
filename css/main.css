@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.projects{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: none;
+    padding: 2px;
+    background-color: #9fa7ac;
+    background: linear-gradient(
+        to right,
+        #ced5d9 0%,
+        #ced5d9 20%,
+        #102133 70%,
+        #102133 100%
+      );
+}
+.projects .content{
+    margin-top: 50px;
+}
+.project-card{
+    background-color: #9fa7ac;
+    border: 1px solid rgb(126, 122, 122);
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 30px;
+    margin-top: 70px;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      to right,
+      #102133 0%,
+      #102133 22%,
+      #ced5d9 30%,
+      #ced5d9 100%
+    );
+}
+.project-image img{
+    width: 8em;
+    border-radius: 10em;
+    position: relative; left: -5px;
+}
+.project-card{
+    background-color: #102133;
+    width: 61em;
+    height: 35em;
+    box-shadow: 5px 0 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    margin: 15px;
+    margin-left: 13em;
+    transition: 0.7s ease;
+    padding: 51px;
+    padding-top: 30px;    
+}
+.profile{
+    color: #9fa7ac;
+    text-align: center;
+    padding-top: 10px;
+}
+.profile-info{
+    color: #9fa7ac;
+    font-size: 9px;
+    position: relative; top: 0.5; left: -720px;
+    padding-left: 80em;
+}
+.contact-icons{
+    color: #9fa7ac;
+    padding-right: 10px;
+    text-align: center;
+    padding-right: 48em;
+}
+.address-icon{
+    color: #9fa7ac;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+.address-icon :hover{
+    transform: scale(1.1,1.1);
+    color: #ced5d9;
+    opacity: 0.9px;
+}
+.project-card h5{
+    position: relative; top: 0.5px; left: -379px;
+}
+.page-2{
+    padding-left: 10em;
+    position: relative; top: -260px; right: -150px;
+    color: #9fa7ac;
+    font-size: 1.7em;
+    font-weight: 900;
+    font-style: oblique;
+    font-style: italic;
+    z-index: 999;
+}
+.socialmedias{
+    position: relative; top: 460px; right: -690px;
+    font-size: 1.5em;
+    scale: 1.5;
+}
+.dis{
+    color: #102133;
+    transition: 0.7s ease;
+}
+.dis:hover{
+    transform: scale(1.2,1.2);
+    color: #9fa7ac;
+}
+
+.tik{
+    color: #102133;
+    transition: 0.7s ease;
+}
+.tik:hover{
+    transform: scale(1.2,1.2);
+    color: #9fa7ac;
+}
+
+
+.twitch{
+    color: #102133;
+    transition: 0.7s ease;
+}
+.twitch:hover{
+    transform: scale(1.2,1.2);
+    color: #9fa7ac;
+}
+
